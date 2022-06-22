@@ -1,0 +1,55 @@
+.flex-container {
+  color: #333;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: sans-serif;
+  justify-content: center;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.flex-item {
+  border: 2px solid #333;
+  flex-grow: 1;
+  margin: 20px;
+  max-width: 300px;
+  padding: 0px 20px;
+}
+
+.flex-item:hover, .flex-item:focus {
+  border-color: #71a154;
+  box-shadow: 0px 0px 13px #317124;
+}
+
+h2, h3 {
+  margin: 0;
+}
+
+h3{
+  color: #999;
+}
+
+p b {
+  color: #71a154
+}
+
+.llave-img {
+  width: 300px;
+}
+
+form {
+  padding: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+input[type="submit"] {
+  background-color: #71a154;
+  border: none;
+  color: #fff;
+  font-size: 17px;
+  padding: 12px 36px;
+  letter-spacing: 1px;
+}
